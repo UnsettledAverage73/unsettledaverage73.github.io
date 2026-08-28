@@ -12,7 +12,7 @@ sections:
     content:
       username: me
       greeting: "Hi, I'm"
-      name: "Atharva Bodade"
+      name: "Atharva B."
       show_status: true
       show_scroll_indicator: true
       typewriter:
