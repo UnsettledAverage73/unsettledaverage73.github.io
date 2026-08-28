@@ -9,4 +9,4 @@ external_link: ""
 ---
 
 * **Storage Sanitization:** Implemented multi-pass overwrite patterns (zero-fill, pseudo-random data) directly targeting block storage devices.
-* **Kernel & Storage Interacting:** Interfaced with Linux storage APIs to overwrite master boot records (MBR) and partition tables safely.
+* **Kernel & Storage Interaction:** Interfaced with Linux storage APIs to overwrite master boot records (MBR) and partition tables safely.
