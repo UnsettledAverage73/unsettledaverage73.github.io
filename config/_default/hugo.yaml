@@ -59,5 +59,8 @@ security:
       - '^node$'
       - '^postcss$'
       - '^tailwindcss$'
+  node:
+    permissions:
+      disable: true
 sitemap:
   _merge: deep
