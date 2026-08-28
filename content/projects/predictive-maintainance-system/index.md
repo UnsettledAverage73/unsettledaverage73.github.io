@@ -12,7 +12,7 @@ links:
     url: https://github.com/UnsettledAverage73/predictive_maintainance_system
 ---
 
-* **Local Inference Pipeline:** Integrated Ollama with fallback handling, Sarvam AI for multilingual log parsing, and Pinecone for vector context retrieval[cite: 2].
-* **Real-Time Event Pipeline:** Streamed live telemetry using Redis Pub/Sub directly to a real-time Next.js dashboard[cite: 2].
-* **Automated Alerts:** Built event handlers to send threshold breach notifications via Twilio WhatsApp API[cite: 2].
-* **Recognition:** 2nd Runner-up at Navonmesh Hackathon (evaluated around Tata Technologies industrial specifications)[cite: 2].
+* **Local Inference Pipeline:** Integrated Ollama with fallback handling, Sarvam AI for multilingual log parsing, and Pinecone for vector context retrieval.
+* **Real-Time Event Pipeline:** Streamed live telemetry using Redis Pub/Sub directly to a real-time Next.js dashboard.
+* **Automated Alerts:** Built event handlers to send threshold breach notifications via Twilio WhatsApp API.
+* **Recognition:** 2nd Runner-up at Navonmesh Hackathon (evaluated around Tata Technologies industrial specifications).
