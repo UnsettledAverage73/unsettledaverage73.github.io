@@ -17,12 +17,12 @@ sections:
       show_scroll_indicator: true
       typewriter:
         enable: true
-        prefix: "I build"
+        prefix: "I focus on"
         strings:
+          - "DSA and problem solving"
+          - "system design and core concepts"
           - "backend systems"
-          - "bare-metal kernels"
-          - "local AI workflows"
-          - "RESTful services"
+          - "applied AI workflows"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
@@ -30,9 +30,9 @@ sections:
         - text: View My Work
           url: "#projects"
           icon: arrow-down
-        - text: Get In Touch
-          url: "#contact"
-          icon: envelope
+        - text: Download Resume
+          url: "/uploads/resume.pdf"
+          icon: download
     design:
       style: centered
       avatar_shape: circle
@@ -48,8 +48,8 @@ sections:
   - block: portfolio
     id: projects
     content:
-      title: "Featured Projects"
-      subtitle: "Low-level architectures, local AI tools, and backend applications"
+      title: "Selected Projects"
+      subtitle: "A focused mix of systems engineering, applied AI, and security work"
       count: 0
       filters:
         folders:
@@ -57,10 +57,10 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Systems & OS
-          tag: Systems
         - name: AI & Backend
           tag: AI-Backend
+        - name: Systems
+          tag: Systems
         - name: Security
           tag: Security
       default_button_index: 0
@@ -78,7 +78,7 @@ sections:
     id: skills
     content:
       title: "Tech Stack"
-      subtitle: "Technologies I use from OS-level up to backend frameworks"
+      subtitle: "The core tools I use across systems engineering, backend work, and applied AI"
       categories:
         - name: Languages & Core
           items:
@@ -99,7 +99,7 @@ sections:
             - name: FastAPI
               icon: devicon/fastapi
             - name: Django
-              icon: devicon/django
+              icon: devicon/python
             - name: Redis
               icon: devicon/redis
             - name: PostgreSQL
@@ -114,6 +114,8 @@ sections:
               icon: devicon/python
             - name: PyTorch
               icon: devicon/pytorch
+            - name: TensorFlow
+              icon: devicon/tensorflow
         - name: DevOps & Environment
           items:
             - name: Docker
@@ -151,7 +153,7 @@ sections:
           description: |2-
             * Analyzed security architecture across 7 core infrastructure domains (Network, Cloud, Endpoint, IAM)
             * Performed vulnerability assessments using Nmap, Wireshark, and Aircrack-ng across 15+ subnet segments
-            * Replicated attack vectors using Metasploit and authored 20+ technical mitigation reports[cite: 2]
+            * Replicated attack vectors using Metasploit and authored 20+ technical mitigation reports
         - title: Software Engineer Intern
           company: Apexa IQ
           company_url: ''
@@ -160,9 +162,9 @@ sections:
           date_start: '2025-09-01'
           date_end: '2025-10-31'
           description: |2-
-            * Built Python REST APIs (FastAPI) maintaining sub-500ms latency across high-throughput endpoints[cite: 2]
-            * Authored 40+ pages of detailed technical documentation, reducing developer setup time by 2 weeks[cite: 2]
-            * Containerized microservice environments using Docker for standardized deployment workflows[cite: 2]
+            * Built Python REST APIs (FastAPI) maintaining sub-500ms latency across high-throughput endpoints
+            * Authored 40+ pages of detailed technical documentation, reducing developer setup time by 2 weeks
+            * Containerized microservice environments using Docker for standardized deployment workflows
         - title: Technical Advisor
           company: Mozilla Open Source Community
           company_url: ''
@@ -171,8 +173,8 @@ sections:
           date_start: '2023-08-01'
           date_end: '2024-08-31'
           description: |2-
-            * Led hands-on technical sessions on Git, Linux command line, and Web Security for 50+ junior students[cite: 2]
-            * Mentored 15+ peers on open-source contribution practices, leading to 5 accepted external PRs[cite: 2]
+            * Led hands-on technical sessions on Git, Linux command line, and Web Security for 50+ junior students
+            * Mentored 15+ peers on open-source contribution practices, leading to 5 accepted external PRs
     design:
       columns: '1'
       background:
@@ -210,10 +212,10 @@ sections:
     id: contact
     content:
       title: Get In Touch
-      subtitle: "Let's build reliable software systems together"
+      subtitle: "Let's build reliable systems and AI products together"
       text: |-
-        I'm always interested in backend systems, low-level architecture, and local AI projects. 
-        Whether you have an opportunity or want to discuss systems engineering, feel free to reach out!
+        I'm especially interested in AI engineering, systems engineering, backend development, and real-world problem solving.
+        If you're hiring for an internship or want to discuss practical engineering work, feel free to reach out.
       email: atharvabodade@gmail.com
       autolink: true
     design:
@@ -230,12 +232,12 @@ sections:
     content:
       title: "Open to Opportunities"
       text: |-
-        I am an Information Technology undergraduate seeking **Backend Engineering**, **Systems**, or **Cloud/AI** roles.
+        I am a final-year Information Technology student seeking **AI Engineering**, **Systems Engineering**, or **Backend** internship roles.
         
-        Let's connect and discuss how I can bring value to your engineering team.
+        I learn quickly, adapt to new tools fast, and like turning core concepts into practical software.
       button:
         text: 'Download Resume'
-        url: uploads/resume.pdf
+        url: /uploads/resume.pdf
         new_tab: true
     design:
       card:
