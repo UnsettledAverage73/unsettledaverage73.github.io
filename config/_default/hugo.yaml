@@ -59,17 +59,5 @@ security:
       - '^node$'
       - '^postcss$'
       - '^tailwindcss$'
-  node:
-    permissions:
-      allowAddons:
-        - tailwindcss
-      allowChildProcess:
-        - tailwindcss
-      allowRead:
-        - '.'
-      allowWorker:
-        - tailwindcss
-      allowWrite: []
-      disable: false
 sitemap:
   _merge: deep
