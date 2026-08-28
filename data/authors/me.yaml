@@ -8,10 +8,10 @@ name:
 postnominals: []
 status:
   icon: ""  # Badge text is styled separately in the homepage hero
-role: Systems & Backend Engineer
+role: Final-Year IT Student | AI & Systems Focus
 email: atharvabodade@gmail.com
 bio: |
-  Information Technology undergraduate focused on backend systems, low-level architecture, and local AI workflows. Driven by a deep curiosity to understand software from the operating system layer up to distributed systems.
+  Final-year Information Technology student focused on system engineering, DSA, core computer science concepts, and applied AI. I like building practical software, learning quickly, and turning structured thinking into reliable products.
 
 affiliations:
   - name: Shri Sant Gajanan Maharaj College of Engineering
@@ -29,10 +29,10 @@ links:
     url: https://youtube.com/@unsettledavrg
 
 interests:
+  - Data Structures & Algorithms
+  - System Design & Core Concepts
+  - Applied AI Workflows (MCP, Ollama)
   - Backend Systems & Microservices
-  - Kernel Development (x86_64)
-  - Local AI Workflows (MCP, Ollama)
-  - Cyber Security & System Hardening
 
 education:
   - degree: B.E. Information Technology
@@ -87,6 +87,8 @@ skills:
         level: 4
       - label: SQL
         level: 4
+      - label: Data Structures & Algorithms
+        level: 5
   - name: Backend & AI Tools
     items:
       - label: FastAPI / Django
@@ -96,6 +98,10 @@ skills:
       - label: PostgreSQL
         level: 4
       - label: Ollama / MCP Protocol
+        level: 4
+      - label: RAG / LLM Integration
+        level: 4
+      - label: System Design
         level: 4
   - name: DevOps & Systems
     items:
