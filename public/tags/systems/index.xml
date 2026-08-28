@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Systems | </title>
+    <link>http://localhost:1313/tags/systems/</link>
+      <atom:link href="http://localhost:1313/tags/systems/index.xml" rel="self" type="application/rss+xml" />
+    <description>Systems</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_eee4a95885829ab2.png</url>
+      <title>Systems</title>
+      <link>http://localhost:1313/tags/systems/</link>
+    </image>
+    
+    <item>
+      <title>Secure Data Wiping Utility</title>
+      <link>http://localhost:1313/projects/datawiping-project/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/datawiping-project/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Storage Sanitization:&lt;/strong&gt; Implemented multi-pass overwrite patterns (zero-fill, pseudo-random data) directly targeting block storage devices.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kernel &amp;amp; Storage Interacting:&lt;/strong&gt; Interfaced with Linux storage APIs to overwrite master boot records (MBR) and partition tables safely.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

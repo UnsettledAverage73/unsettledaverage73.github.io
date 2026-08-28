@@ -1,0 +1,132 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Atharva Bodade
+  given: Atharva
+  family: Bodade
+postnominals: []
+status:
+  icon: ""  # Badge text is styled separately in the homepage hero
+role: Systems & Backend Engineer
+email: atharvabodade@gmail.com
+bio: |
+  Information Technology undergraduate focused on backend systems, low-level architecture, and local AI workflows. Driven by a deep curiosity to understand software from the operating system layer up to distributed systems.
+
+affiliations:
+  - name: Shri Sant Gajanan Maharaj College of Engineering
+    url: https://www.ssgmce.ac.in
+
+links:
+  - icon: at-symbol
+    url: mailto:atharvabodade@gmail.com
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/unsettledaverage73
+  - icon: brands/linkedin
+    url: https://linkedin.com/in/atharvabodade
+  - icon: brands/youtube
+    url: https://youtube.com/@unsettledavrg
+
+interests:
+  - Backend Systems & Microservices
+  - Kernel Development (x86_64)
+  - Local AI Workflows (MCP, Ollama)
+  - Cyber Security & System Hardening
+
+education:
+  - degree: B.E. Information Technology
+    institution: Shri Sant Gajanan Maharaj College of Engineering
+    start: 2023-08-01
+    end: 2027-05-31
+    summary: |
+      Cumulative CGPA: 7.14/10.0
+      Relevant Coursework: Operating Systems (Kernel Dev), Data Structures & Algorithms, Computer Networks, Assembly Language Programming, Computer Organization and Architecture, Compiler Design.
+  - degree: HSC General Science
+    institution: Shri R.L.T. College of Science, Akola
+    start: 2021-08-01
+    end: 2023-05-31
+    summary: |
+      MHT-CET: 94.43 Percentile
+
+experience:
+  - role: Cyber Security Intern
+    org: VCF Cyber Solutions Pvt. Ltd.
+    start: 2025-12-01
+    end: 2026-03-31
+    summary: |
+      Analyzed security architecture across 7 core infrastructure domains.
+      Performed vulnerability assessments using Nmap, Wireshark, and Aircrack-ng across 15+ subnets.
+      Authored 20+ technical reports mapping exploit patterns to mitigations.
+  - role: Software Engineer Intern
+    org: Apexa IQ
+    start: 2025-09-01
+    end: 2025-10-31
+    summary: |
+      Built Python REST APIs (FastAPI) maintaining sub-500ms latency.
+      Authored 40+ pages of detailed technical documentation.
+      Containerized microservice environments using Docker.
+  - role: Technical Advisor
+    org: Mozilla Open Source Community
+    start: 2023-08-01
+    end: 2024-08-31
+    summary: |
+      Led technical workshops on Git, Linux, and Web Security for 50+ students.
+      Mentored 15+ peers on open-source workflows, yielding 5 merged pull requests.
+
+skills:
+  - name: Programming & Core
+    items:
+      - label: Python (AsyncIO)
+        level: 5
+      - label: C / Assembly (x86_64)
+        level: 4
+      - label: TypeScript
+        level: 4
+      - label: Bash / Shell Scripting
+        level: 4
+      - label: SQL
+        level: 4
+  - name: Backend & AI Tools
+    items:
+      - label: FastAPI / Django
+        level: 5
+      - label: Redis (Pub/Sub & Caching)
+        level: 4
+      - label: PostgreSQL
+        level: 4
+      - label: Ollama / MCP Protocol
+        level: 4
+  - name: DevOps & Systems
+    items:
+      - label: Linux (Arch, Red Hat)
+        level: 5
+      - label: Docker / Kubernetes
+        level: 4
+      - label: AWS (S3, Lambda)
+        level: 3
+
+languages:
+  - name: English
+    level: 5
+    label: Professional Working
+  - name: Marathi
+    level: 5
+    label: Native
+  - name: Hindi
+    level: 5
+    label: Native
+
+awards:
+  - title: Finalist, Smart India Hackathon 2024
+    url: https://github.com/UnsettledAverage73/his-2k24
+    date: 2024-12-01
+    summary: Top national team for NTRO problem statement building an automated multi-OS system audit tool.
+  - title: Second Runner-up, Navonmesh Hackathon
+    url: https://github.com/UnsettledAverage73/predictive_maintainance_system
+    date: 2026-02-01
+    summary: Built an industrial IoT predictive maintenance tool evaluated around Tata Technologies requirements.
+  - title: Top 15 Finalist, Woxsen University Hackathon
+    url: https://github.com/UnsettledAverage73/Locally-AI-Integrated-IDE
+    date: 2026-01-01
+    summary: Selected out of 150+ teams for Average IDE, integrated with AWS EC2 provisioning capabilities.

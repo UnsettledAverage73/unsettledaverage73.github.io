@@ -1,0 +1,57 @@
+<footer class="atharva-footer container mx-auto mt-24 mb-4 flex flex-col justify-items-center rounded-2xl px-6 py-5 text-sm leading-6 text-[var(--hb-color-foreground)] shadow-sm">
+  <style>
+    #site-header,
+    .page-header,
+    .header,
+    .navbar {
+      background-color: var(--hb-color-background) !important;
+      background-image: none !important;
+      box-shadow: none !important;
+      border-bottom-color: transparent !important;
+    }
+
+    #site-header,
+    .page-header {
+      color: var(--hb-color-foreground);
+    }
+
+    #hero h1,
+    #publications h2 {
+      letter-spacing: -0.03em;
+    }
+
+    #hero h1 {
+      font-size: clamp(2.8rem, 6vw, 4.75rem) !important;
+      line-height: 1.02 !important;
+    }
+
+    #publications h2 {
+      font-size: clamp(1.9rem, 3vw, 3rem) !important;
+    }
+
+    #hero .avatar-emoji {
+      color: transparent !important;
+      font-size: 0 !important;
+    }
+
+    #hero .avatar-emoji::before {
+      content: "Made by";
+      color: var(--hb-color-foreground);
+      font-size: 0.45rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      line-height: 1;
+      text-transform: none;
+    }
+
+    .atharva-footer {
+      background: var(--hb-color-background);
+      border-top: 1px solid rgba(148, 163, 184, 0.18);
+    }
+
+    .dark .atharva-footer {
+      border-top-color: rgba(148, 163, 184, 0.24);
+    }
+  </style>
+  <p class="text-center font-medium opacity-90">Made with Atharva with ❤️</p>
+</footer>
