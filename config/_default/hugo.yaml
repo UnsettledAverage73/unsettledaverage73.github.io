@@ -51,6 +51,25 @@ markup:
     lineNos: false
 security:
   _merge: deep
+  exec:
+    allow:
+      - '^(dart-)?sass$'
+      - '^go$'
+      - '^git$'
+      - '^node$'
+      - '^postcss$'
+      - '^tailwindcss$'
+  node:
+    permissions:
+      allowAddons:
+        - tailwindcss
+      allowChildProcess:
+        - tailwindcss
+      allowRead:
+        - '.'
+      allowWorker:
+        - tailwindcss
+      allowWrite: []
+      disable: false
 sitemap:
   _merge: deep
-
