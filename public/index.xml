@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>http://localhost:1313/</link>
-      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/</link>
+      <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_eee4a95885829ab2.png</url>
+      <url>https://example.com/media/icon_hu_eee4a95885829ab2.png</url>
       <title></title>
-      <link>http://localhost:1313/</link>
+      <link>https://example.com/</link>
     </image>
     
     <item>
       <title>Predictive Maintenance AI System</title>
-      <link>http://localhost:1313/projects/predictive-maintainance-system/</link>
+      <link>https://example.com/projects/predictive-maintainance-system/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/predictive-maintainance-system/</guid>
+      <guid>https://example.com/projects/predictive-maintainance-system/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Local Inference Pipeline:&lt;/strong&gt; Integrated Ollama with fallback handling, Sarvam AI for multilingual log parsing, and Pinecone for vector context retrieval[cite: 2].&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Real-Time Event Pipeline:&lt;/strong&gt; Streamed live telemetry using Redis Pub/Sub directly to a real-time Next.js dashboard[cite: 2].&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Automated Alerts:&lt;/strong&gt; Built event handlers to send threshold breach notifications via Twilio WhatsApp API[cite: 2].&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Recognition:&lt;/strong&gt; 2nd Runner-up at Navonmesh Hackathon (evaluated around Tata Technologies industrial specifications)[cite: 2].&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Local Inference Pipeline:&lt;/strong&gt; Integrated Ollama with fallback handling, Sarvam AI for multilingual log parsing, and Pinecone for vector context retrieval.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Real-Time Event Pipeline:&lt;/strong&gt; Streamed live telemetry using Redis Pub/Sub directly to a real-time Next.js dashboard.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automated Alerts:&lt;/strong&gt; Built event handlers to send threshold breach notifications via Twilio WhatsApp API.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recognition:&lt;/strong&gt; 2nd Runner-up at Navonmesh Hackathon (evaluated around Tata Technologies industrial specifications).&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
-      <title>Average IDE (Locally AI-Integrated IDE)</title>
-      <link>http://localhost:1313/projects/localai-dev-ide/</link>
+      <title>Average IDE</title>
+      <link>https://example.com/projects/localai-dev-ide/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/localai-dev-ide/</guid>
+      <guid>https://example.com/projects/localai-dev-ide/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Native MCP Integration:&lt;/strong&gt; Implemented the Model Context Protocol to connect local LLMs directly to workspace tools like the file system, terminal, and local search[cite: 2].&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Autonomous ReAct Loop:&lt;/strong&gt; Built a execution flow allowing local models to analyze directory trees, plan project structures, and run local build scripts[cite: 2].&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Context Management:&lt;/strong&gt; Designed windowing logic to stream raw program state into quantized Ollama models for multi-file refactoring on local hardware[cite: 2].&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Recognition:&lt;/strong&gt; Placed in the Top 15 out of 150+ national teams at Woxsen University Hackathon 2026[cite: 2].&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Native MCP Integration:&lt;/strong&gt; Implemented the Model Context Protocol to connect local LLMs directly to workspace tools like the file system, terminal, and local search.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Autonomous ReAct Loop:&lt;/strong&gt; Built an execution flow that lets local models inspect directory trees, plan project structures, and run build scripts.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Context Management:&lt;/strong&gt; Designed windowing logic to stream raw program state into quantized Ollama models for multi-file refactoring on local hardware.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recognition:&lt;/strong&gt; Placed in the Top 15 out of 150+ national teams at Woxsen University Hackathon 2026.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Solar Panel Defect Detection</title>
-      <link>http://localhost:1313/projects/solar-detection/</link>
+      <link>https://example.com/projects/solar-detection/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/solar-detection/</guid>
+      <guid>https://example.com/projects/solar-detection/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Model Training:&lt;/strong&gt; Utilized PyTorch and TensorFlow vision pipelines to classify physical defects and efficiency loss in solar panel thermal images[cite: 2].&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Model Training:&lt;/strong&gt; Utilized PyTorch and TensorFlow vision pipelines to classify physical defects and efficiency loss in solar panel thermal images.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Preprocessing &amp;amp; Data Pipeline:&lt;/strong&gt; Applied image augmentation and segmentation to detect subtle physical surface anomalies.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -54,47 +54,47 @@
     
     <item>
       <title>Secure Data Wiping Utility</title>
-      <link>http://localhost:1313/projects/datawiping-project/</link>
+      <link>https://example.com/projects/datawiping-project/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/datawiping-project/</guid>
+      <guid>https://example.com/projects/datawiping-project/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Storage Sanitization:&lt;/strong&gt; Implemented multi-pass overwrite patterns (zero-fill, pseudo-random data) directly targeting block storage devices.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Kernel &amp;amp; Storage Interacting:&lt;/strong&gt; Interfaced with Linux storage APIs to overwrite master boot records (MBR) and partition tables safely.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kernel &amp;amp; Storage Interaction:&lt;/strong&gt; Interfaced with Linux storage APIs to overwrite master boot records (MBR) and partition tables safely.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>CIS Benchmark Audit Tool</title>
-      <link>http://localhost:1313/projects/cis-audit-dashboard/</link>
+      <link>https://example.com/projects/cis-audit-dashboard/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/cis-audit-dashboard/</guid>
+      <guid>https://example.com/projects/cis-audit-dashboard/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Multi-OS Hardening Engine:&lt;/strong&gt; Developed automated auditing scripts for RHEL 8/9, Ubuntu 20.04/22.04, and Windows to flag 20+ critical security misconfigurations[cite: 2].&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Visualization &amp;amp; Reporting:&lt;/strong&gt; Built Tkinter desktop and React web interfaces paired with automated JSON and executive PDF report generators[cite: 2].&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Recognition:&lt;/strong&gt; National Finalist at Smart India Hackathon 2024 for the NTRO problem statement[cite: 2].&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-OS Hardening Engine:&lt;/strong&gt; Developed automated auditing scripts for RHEL 8/9, Ubuntu 20.04/22.04, and Windows to flag 20+ critical security misconfigurations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Visualization &amp;amp; Reporting:&lt;/strong&gt; Built Tkinter desktop and React web interfaces paired with automated JSON and executive PDF report generators.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recognition:&lt;/strong&gt; National Finalist at Smart India Hackathon 2024 for the NTRO problem statement.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Income &amp; Credit Risk Prediction System</title>
-      <link>http://localhost:1313/projects/income-prediction-system/</link>
+      <link>https://example.com/projects/income-prediction-system/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/income-prediction-system/</guid>
+      <guid>https://example.com/projects/income-prediction-system/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Predictive Analytics Engine:&lt;/strong&gt; Built machine learning models utilizing XGBoost regression and classification algorithms for peer-to-peer lending risk assessment[cite: 2].&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Feature Engineering:&lt;/strong&gt; Preprocessed tabular dataset metrics using Pandas and NumPy for targeted hyperparameter tuning[cite: 2].&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Performance Verification:&lt;/strong&gt; Achieved over 85% predictive accuracy on unseen testing datasets[cite: 2].&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Predictive Analytics Engine:&lt;/strong&gt; Built machine learning models utilizing XGBoost regression and classification algorithms for peer-to-peer lending risk assessment.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feature Engineering:&lt;/strong&gt; Preprocessed tabular dataset metrics using Pandas and NumPy for targeted hyperparameter tuning.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Performance Verification:&lt;/strong&gt; Achieved over 85% predictive accuracy on unseen testing datasets.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Exposing the Hotel Review Scam on Google Maps</title>
-      <link>http://localhost:1313/publications/exposing-the-hotel-review-scam-on-google-maps/</link>
+      <link>https://example.com/publications/exposing-the-hotel-review-scam-on-google-maps/</link>
       <pubDate>Sat, 07 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/exposing-the-hotel-review-scam-on-google-maps/</guid>
+      <guid>https://example.com/publications/exposing-the-hotel-review-scam-on-google-maps/</guid>
       <description>&lt;p&gt;Written as part of my Medium publication work. The article examines review fraud signals, how fake ratings distort discovery, and how these scams surface in practice.&lt;/p&gt;
 &lt;p&gt;
 &lt;/p&gt;
@@ -103,9 +103,9 @@
     
     <item>
       <title>How to Put your Website on Dark Web !!!</title>
-      <link>http://localhost:1313/publications/how-to-put-your-website-on-dark-web/</link>
+      <link>https://example.com/publications/how-to-put-your-website-on-dark-web/</link>
       <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/how-to-put-your-website-on-dark-web/</guid>
+      <guid>https://example.com/publications/how-to-put-your-website-on-dark-web/</guid>
       <description>&lt;p&gt;This article explains the basic setup path for publishing a site over Tor, covering the service configuration, onion address handling, and the operational tradeoffs involved.&lt;/p&gt;
 &lt;p&gt;
 &lt;/p&gt;
@@ -114,9 +114,9 @@
     
     <item>
       <title>Strengthening National Cyber Defenses: Integrating Kali Linux and Brute Force Tactics for Quantum-Secured Nationhood</title>
-      <link>http://localhost:1313/publications/strengthening-national-cyber-defenses/</link>
+      <link>https://example.com/publications/strengthening-national-cyber-defenses/</link>
       <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/strengthening-national-cyber-defenses/</guid>
+      <guid>https://example.com/publications/strengthening-national-cyber-defenses/</guid>
       <description>&lt;p&gt;This piece explores defensive cyber strategy through the lens of Kali Linux tooling, adversarial testing, and resilience planning for an evolving threat landscape.&lt;/p&gt;
 &lt;p&gt;
 &lt;/p&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research | </title>
-    <link>http://localhost:1313/tags/research/</link>
-      <atom:link href="http://localhost:1313/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/tags/research/</link>
+      <atom:link href="https://example.com/tags/research/index.xml" rel="self" type="application/rss+xml" />
     <description>Research</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 07 Sep 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_eee4a95885829ab2.png</url>
+      <url>https://example.com/media/icon_hu_eee4a95885829ab2.png</url>
       <title>Research</title>
-      <link>http://localhost:1313/tags/research/</link>
+      <link>https://example.com/tags/research/</link>
     </image>
     
     <item>
       <title>Exposing the Hotel Review Scam on Google Maps</title>
-      <link>http://localhost:1313/publications/exposing-the-hotel-review-scam-on-google-maps/</link>
+      <link>https://example.com/publications/exposing-the-hotel-review-scam-on-google-maps/</link>
       <pubDate>Sat, 07 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/exposing-the-hotel-review-scam-on-google-maps/</guid>
+      <guid>https://example.com/publications/exposing-the-hotel-review-scam-on-google-maps/</guid>
       <description>&lt;p&gt;Written as part of my Medium publication work. The article examines review fraud signals, how fake ratings distort discovery, and how these scams surface in practice.&lt;/p&gt;
 &lt;p&gt;
 &lt;/p&gt;
@@ -25,9 +25,9 @@
     
     <item>
       <title>Strengthening National Cyber Defenses: Integrating Kali Linux and Brute Force Tactics for Quantum-Secured Nationhood</title>
-      <link>http://localhost:1313/publications/strengthening-national-cyber-defenses/</link>
+      <link>https://example.com/publications/strengthening-national-cyber-defenses/</link>
       <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/strengthening-national-cyber-defenses/</guid>
+      <guid>https://example.com/publications/strengthening-national-cyber-defenses/</guid>
       <description>&lt;p&gt;This piece explores defensive cyber strategy through the lens of Kali Linux tooling, adversarial testing, and resilience planning for an evolving threat landscape.&lt;/p&gt;
 &lt;p&gt;
 &lt;/p&gt;
