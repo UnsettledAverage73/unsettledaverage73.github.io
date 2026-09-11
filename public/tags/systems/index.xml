@@ -1,28 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Systems | Atharva B.</title>
-    <link>https://example.com/tags/systems/</link>
-      <atom:link href="https://example.com/tags/systems/index.xml" rel="self" type="application/rss+xml" />
-    <description>Systems</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://example.com/media/icon_hu_eee4a95885829ab2.png</url>
-      <title>Systems</title>
-      <link>https://example.com/tags/systems/</link>
-    </image>
-    
-    <item>
-      <title>Secure Data Wiping Utility</title>
-      <link>https://example.com/projects/datawiping-project/</link>
-      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/projects/datawiping-project/</guid>
-      <description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Systems | Atharva B.</title><link>https://unsettledaverage73.github.io/tags/systems/</link><atom:link href="https://unsettledaverage73.github.io/tags/systems/index.xml" rel="self" type="application/rss+xml"/><description>Systems</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate><image><url>https://unsettledaverage73.github.io/media/icon_hu_eee4a95885829ab2.png</url><title>Systems</title><link>https://unsettledaverage73.github.io/tags/systems/</link></image><item><title>Secure Data Wiping Utility</title><link>https://unsettledaverage73.github.io/projects/datawiping-project/</link><pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><guid>https://unsettledaverage73.github.io/projects/datawiping-project/</guid><description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Storage Sanitization:&lt;/strong&gt; Implemented multi-pass overwrite patterns (zero-fill, pseudo-random data) directly targeting block storage devices.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Kernel &amp;amp; Storage Interaction:&lt;/strong&gt; Interfaced with Linux storage APIs to overwrite master boot records (MBR) and partition tables safely.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/ul&gt;</description></item></channel></rss>

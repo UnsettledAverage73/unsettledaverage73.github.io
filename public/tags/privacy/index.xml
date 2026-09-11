@@ -1,27 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Privacy | Atharva B.</title>
-    <link>https://example.com/tags/privacy/</link>
-      <atom:link href="https://example.com/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
-    <description>Privacy</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 03 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://example.com/media/icon_hu_eee4a95885829ab2.png</url>
-      <title>Privacy</title>
-      <link>https://example.com/tags/privacy/</link>
-    </image>
-    
-    <item>
-      <title>How to Put your Website on Dark Web !!!</title>
-      <link>https://example.com/publications/how-to-put-your-website-on-dark-web/</link>
-      <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publications/how-to-put-your-website-on-dark-web/</guid>
-      <description>&lt;p&gt;This article explains the basic setup path for publishing a site over Tor, covering the service configuration, onion address handling, and the operational tradeoffs involved.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Privacy | Atharva B.</title><link>https://unsettledaverage73.github.io/tags/privacy/</link><atom:link href="https://unsettledaverage73.github.io/tags/privacy/index.xml" rel="self" type="application/rss+xml"/><description>Privacy</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 03 Jul 2024 00:00:00 +0000</lastBuildDate><image><url>https://unsettledaverage73.github.io/media/icon_hu_eee4a95885829ab2.png</url><title>Privacy</title><link>https://unsettledaverage73.github.io/tags/privacy/</link></image><item><title>How to Put your Website on Dark Web !!!</title><link>https://unsettledaverage73.github.io/publications/how-to-put-your-website-on-dark-web/</link><pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate><guid>https://unsettledaverage73.github.io/publications/how-to-put-your-website-on-dark-web/</guid><description>&lt;p&gt;This article explains the basic setup path for publishing a site over Tor, covering the service configuration, onion address handling, and the operational tradeoffs involved.&lt;/p&gt;
 &lt;p&gt;
-&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/p&gt;</description></item></channel></rss>

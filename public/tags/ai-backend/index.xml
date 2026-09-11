@@ -1,69 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>AI-Backend | Atharva B.</title>
-    <link>https://example.com/tags/ai-backend/</link>
-      <atom:link href="https://example.com/tags/ai-backend/index.xml" rel="self" type="application/rss+xml" />
-    <description>AI-Backend</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://example.com/media/icon_hu_eee4a95885829ab2.png</url>
-      <title>AI-Backend</title>
-      <link>https://example.com/tags/ai-backend/</link>
-    </image>
-    
-    <item>
-      <title>Predictive Maintenance AI System</title>
-      <link>https://example.com/projects/predictive-maintainance-system/</link>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://example.com/projects/predictive-maintainance-system/</guid>
-      <description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI-Backend | Atharva B.</title><link>https://unsettledaverage73.github.io/tags/ai-backend/</link><atom:link href="https://unsettledaverage73.github.io/tags/ai-backend/index.xml" rel="self" type="application/rss+xml"/><description>AI-Backend</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate><image><url>https://unsettledaverage73.github.io/media/icon_hu_eee4a95885829ab2.png</url><title>AI-Backend</title><link>https://unsettledaverage73.github.io/tags/ai-backend/</link></image><item><title>Predictive Maintenance AI System</title><link>https://unsettledaverage73.github.io/projects/predictive-maintainance-system/</link><pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate><guid>https://unsettledaverage73.github.io/projects/predictive-maintainance-system/</guid><description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Local Inference Pipeline:&lt;/strong&gt; Integrated Ollama with fallback handling, Sarvam AI for multilingual log parsing, and Pinecone for vector context retrieval.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Real-Time Event Pipeline:&lt;/strong&gt; Streamed live telemetry using Redis Pub/Sub directly to a real-time Next.js dashboard.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Automated Alerts:&lt;/strong&gt; Built event handlers to send threshold breach notifications via Twilio WhatsApp API.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Recognition:&lt;/strong&gt; 2nd Runner-up at Navonmesh Hackathon (evaluated around Tata Technologies industrial specifications).&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Average IDE</title>
-      <link>https://example.com/projects/localai-dev-ide/</link>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://example.com/projects/localai-dev-ide/</guid>
-      <description>&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Average IDE</title><link>https://unsettledaverage73.github.io/projects/localai-dev-ide/</link><pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate><guid>https://unsettledaverage73.github.io/projects/localai-dev-ide/</guid><description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Native MCP Integration:&lt;/strong&gt; Implemented the Model Context Protocol to connect local LLMs directly to workspace tools like the file system, terminal, and local search.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Autonomous ReAct Loop:&lt;/strong&gt; Built an execution flow that lets local models inspect directory trees, plan project structures, and run build scripts.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Context Management:&lt;/strong&gt; Designed windowing logic to stream raw program state into quantized Ollama models for multi-file refactoring on local hardware.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Recognition:&lt;/strong&gt; Placed in the Top 15 out of 150+ national teams at Woxsen University Hackathon 2026.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Solar Panel Defect Detection</title>
-      <link>https://example.com/projects/solar-detection/</link>
-      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/projects/solar-detection/</guid>
-      <description>&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Solar Panel Defect Detection</title><link>https://unsettledaverage73.github.io/projects/solar-detection/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><guid>https://unsettledaverage73.github.io/projects/solar-detection/</guid><description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Model Training:&lt;/strong&gt; Utilized PyTorch and TensorFlow vision pipelines to classify physical defects and efficiency loss in solar panel thermal images.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Preprocessing &amp;amp; Data Pipeline:&lt;/strong&gt; Applied image augmentation and segmentation to detect subtle physical surface anomalies.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Income &amp; Credit Risk Prediction System</title>
-      <link>https://example.com/projects/income-prediction-system/</link>
-      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/projects/income-prediction-system/</guid>
-      <description>&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Income &amp; Credit Risk Prediction System</title><link>https://unsettledaverage73.github.io/projects/income-prediction-system/</link><pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate><guid>https://unsettledaverage73.github.io/projects/income-prediction-system/</guid><description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Predictive Analytics Engine:&lt;/strong&gt; Built machine learning models utilizing XGBoost regression and classification algorithms for peer-to-peer lending risk assessment.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Feature Engineering:&lt;/strong&gt; Preprocessed tabular dataset metrics using Pandas and NumPy for targeted hyperparameter tuning.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Performance Verification:&lt;/strong&gt; Achieved over 85% predictive accuracy on unseen testing datasets.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/ul&gt;</description></item></channel></rss>

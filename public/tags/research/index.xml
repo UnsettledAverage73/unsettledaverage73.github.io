@@ -1,38 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Research | Atharva B.</title>
-    <link>https://example.com/tags/research/</link>
-      <atom:link href="https://example.com/tags/research/index.xml" rel="self" type="application/rss+xml" />
-    <description>Research</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 07 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://example.com/media/icon_hu_eee4a95885829ab2.png</url>
-      <title>Research</title>
-      <link>https://example.com/tags/research/</link>
-    </image>
-    
-    <item>
-      <title>Exposing the Hotel Review Scam on Google Maps</title>
-      <link>https://example.com/publications/exposing-the-hotel-review-scam-on-google-maps/</link>
-      <pubDate>Sat, 07 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publications/exposing-the-hotel-review-scam-on-google-maps/</guid>
-      <description>&lt;p&gt;Written as part of my Medium publication work. The article examines review fraud signals, how fake ratings distort discovery, and how these scams surface in practice.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research | Atharva B.</title><link>https://unsettledaverage73.github.io/tags/research/</link><atom:link href="https://unsettledaverage73.github.io/tags/research/index.xml" rel="self" type="application/rss+xml"/><description>Research</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 07 Sep 2024 00:00:00 +0000</lastBuildDate><image><url>https://unsettledaverage73.github.io/media/icon_hu_eee4a95885829ab2.png</url><title>Research</title><link>https://unsettledaverage73.github.io/tags/research/</link></image><item><title>Exposing the Hotel Review Scam on Google Maps</title><link>https://unsettledaverage73.github.io/publications/exposing-the-hotel-review-scam-on-google-maps/</link><pubDate>Sat, 07 Sep 2024 00:00:00 +0000</pubDate><guid>https://unsettledaverage73.github.io/publications/exposing-the-hotel-review-scam-on-google-maps/</guid><description>&lt;p&gt;Written as part of my Medium publication work. The article examines review fraud signals, how fake ratings distort discovery, and how these scams surface in practice.&lt;/p&gt;
 &lt;p&gt;
-&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Strengthening National Cyber Defenses: Integrating Kali Linux and Brute Force Tactics for Quantum-Secured Nationhood</title>
-      <link>https://example.com/publications/strengthening-national-cyber-defenses/</link>
-      <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publications/strengthening-national-cyber-defenses/</guid>
-      <description>&lt;p&gt;This piece explores defensive cyber strategy through the lens of Kali Linux tooling, adversarial testing, and resilience planning for an evolving threat landscape.&lt;/p&gt;
+&lt;/p&gt;</description></item><item><title>Strengthening National Cyber Defenses: Integrating Kali Linux and Brute Force Tactics for Quantum-Secured Nationhood</title><link>https://unsettledaverage73.github.io/publications/strengthening-national-cyber-defenses/</link><pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate><guid>https://unsettledaverage73.github.io/publications/strengthening-national-cyber-defenses/</guid><description>&lt;p&gt;This piece explores defensive cyber strategy through the lens of Kali Linux tooling, adversarial testing, and resilience planning for an evolving threat landscape.&lt;/p&gt;
 &lt;p&gt;
-&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/p&gt;</description></item></channel></rss>
