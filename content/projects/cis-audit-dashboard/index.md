@@ -6,8 +6,7 @@ tags:
 date: 2024-12-01
 external_link: ""
 links:
-  - icon: github
-    icon_pack: fab
+  - icon: brands/github
     name: Code
     url: https://github.com/UnsettledAverage73/his-2k24
 ---

@@ -1,0 +1,441 @@
+/* ==========================================================================
+   ADVANCED MODERN DEVELOPER PORTFOLIO STYLES
+   - Full Mobile, Tablet & Desktop Responsiveness
+   - Dark-First Glassmorphic Aesthetic & Micro-Interactions
+   - Performance & Visual Polish
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. GLOBAL RESETS & PERFORMANCE
+   -------------------------------------------------------------------------- */
+html {
+  scroll-behavior: smooth;
+  overflow-x: clip;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  overflow-x: clip;
+  width: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #08080c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(99, 102, 241, 0.5);
+}
+
+/* --------------------------------------------------------------------------
+   2. HEADER & NAVIGATION
+   -------------------------------------------------------------------------- */
+#site-header.header {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 50 !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: none !important;
+}
+
+.dark #site-header.header {
+  background-color: rgba(10, 10, 15, 0.82) !important;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07) !important;
+}
+
+:root:not(.dark) #site-header.header {
+  background-color: rgba(255, 255, 255, 0.85) !important;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06) !important;
+}
+
+/* Brand Name / Title */
+.navbar-brand {
+  font-weight: 700 !important;
+  letter-spacing: -0.02em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: opacity 0.2s ease;
+}
+
+.navbar-brand:hover {
+  opacity: 0.85;
+}
+
+/* Nav links styling */
+.nav-link {
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.85rem !important;
+  font-weight: 500 !important;
+  font-size: 0.925rem;
+  transition: all 0.2s ease !important;
+}
+
+.nav-link:hover {
+  background: rgba(99, 102, 241, 0.1);
+  color: var(--color-primary-400) !important;
+}
+
+/* Mobile Menu Dropdown Polish */
+@media (max-width: 1023px) {
+  input#nav-toggle:checked ~ #nav-menu {
+    border-radius: 1rem;
+    margin-top: 0.75rem;
+    padding: 1rem 1.25rem !important;
+    animation: fadeInMenu 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .dark input#nav-toggle:checked ~ #nav-menu {
+    background: rgba(13, 13, 18, 0.96) !important;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.7);
+  }
+
+  :root:not(.dark) input#nav-toggle:checked ~ #nav-menu {
+    background: rgba(255, 255, 255, 0.98) !important;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.15);
+  }
+
+  #nav-menu .nav-item {
+    width: 100%;
+    text-align: left;
+  }
+
+  #nav-menu .nav-link {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem !important;
+    font-size: 1rem;
+    border-radius: 0.65rem;
+  }
+}
+
+@keyframes fadeInMenu {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   3. HERO SECTION RESPONSIVENESS & POLISH
+   -------------------------------------------------------------------------- */
+#hero {
+  position: relative;
+}
+
+/* Hero Spacing & Vertical Rhythm across all viewports */
+#hero .min-h-\[80vh\] {
+  min-height: auto !important;
+}
+
+#hero .py-20 {
+  padding-top: 3rem !important;
+  padding-bottom: 3.5rem !important;
+}
+
+/* Mobile specific spacing */
+@media (max-width: 768px) {
+  #hero {
+    padding-top: 1.25rem !important;
+    padding-bottom: 2.5rem !important;
+  }
+
+  #hero .py-20 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  /* Full-width responsive CTA buttons on small screens */
+  #hero .flex.flex-wrap.gap-4 {
+    flex-direction: column !important;
+    width: 100% !important;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 0.75rem !important;
+  }
+
+  #hero .flex.flex-wrap.gap-4 a {
+    width: 100% !important;
+    justify-content: center !important;
+    text-align: center;
+  }
+}
+
+/* Hero Avatar Glow */
+#hero .relative.inline-block img {
+  transition: transform 0.3s ease;
+}
+
+#hero .relative.inline-block:hover img {
+  transform: scale(1.04);
+}
+
+.dark #hero .relative.inline-block > div:first-child {
+  box-shadow: 0 0 45px -8px rgba(99, 102, 241, 0.45);
+}
+
+/* Fluid Responsive Typography for Hero Title */
+#hero h1 {
+  font-size: clamp(2.25rem, 6vw, 4.25rem) !important;
+  line-height: 1.12 !important;
+  letter-spacing: -0.025em;
+  margin-bottom: 1.25rem !important;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+/* Subtitle / Typewriter line */
+#hero p.text-xl,
+#hero p.text-2xl {
+  font-size: clamp(1.15rem, 2.5vw, 1.45rem) !important;
+  line-height: 1.4;
+  margin-bottom: 1.25rem !important;
+}
+
+/* Hero Bio text */
+#hero p.text-gray-600,
+#hero p.text-gray-400 {
+  font-size: clamp(0.95rem, 1.8vw, 1.075rem);
+  line-height: 1.7;
+  max-width: 44rem;
+}
+
+/* CTA Buttons Styling */
+#hero a[href="#projects"] {
+  background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%) !important;
+  box-shadow: 0 8px 25px -4px rgba(99, 102, 241, 0.45) !important;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+}
+
+#hero a[href="#projects"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px -4px rgba(99, 102, 241, 0.6) !important;
+}
+
+#hero a[href*="resume"] {
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dark #hero a[href*="resume"] {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  backdrop-filter: blur(8px);
+}
+
+.dark #hero a[href*="resume"]:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+  transform: translateY(-2px);
+}
+
+/* Social link circles */
+#hero .flex.items-center.gap-4 a {
+  min-width: 44px;
+  min-height: 44px;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#hero .flex.items-center.gap-4 a:hover {
+  transform: translateY(-3px) scale(1.08);
+}
+
+/* --------------------------------------------------------------------------
+   4. SECTION HEADINGS & SPACING
+   -------------------------------------------------------------------------- */
+.hbb-section h2 {
+  font-size: clamp(1.85rem, 4vw, 2.75rem) !important;
+  line-height: 1.15 !important;
+  letter-spacing: -0.025em;
+}
+
+@media (max-width: 768px) {
+  .hbb-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   5. SELECTED PROJECTS SECTION
+   -------------------------------------------------------------------------- */
+/* Filter bar horizontal scrolling on mobile */
+#projects .flex.flex-wrap.justify-center {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.5rem !important;
+}
+
+@media (max-width: 640px) {
+  #projects .flex.flex-wrap.justify-center {
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    justify-content: flex-start !important;
+    padding: 0.5rem 1rem 0.75rem 1rem !important;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  #projects .flex.flex-wrap.justify-center::-webkit-scrollbar {
+    display: none;
+  }
+
+  #projects .flex.flex-wrap.justify-center button {
+    flex-shrink: 0;
+    white-space: nowrap;
+    padding: 0.5rem 1rem !important;
+  }
+}
+
+/* Project Cards Polish */
+.dark #projects .group {
+  border-radius: 1.25rem;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dark #projects .group:hover {
+  border-color: rgba(99, 102, 241, 0.45);
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.65), 0 0 25px -5px rgba(99, 102, 241, 0.2);
+}
+
+/* --------------------------------------------------------------------------
+   6. TECH STACK (SKILLS) POLISH
+   -------------------------------------------------------------------------- */
+.dark #skills .rounded-2xl {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(8px);
+  transition: border-color 0.25s ease;
+}
+
+.dark #skills .rounded-2xl:hover {
+  border-color: rgba(99, 102, 241, 0.3);
+}
+
+/* Skill item pills */
+#skills .flex.items-center.gap-3 {
+  border-radius: 0.75rem;
+  padding: 0.65rem 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.dark #skills .flex.items-center.gap-3 {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.dark #skills .flex.items-center.gap-3:hover {
+  background: rgba(99, 102, 241, 0.12);
+  border-color: rgba(99, 102, 241, 0.35);
+  transform: translateY(-2px);
+}
+
+/* --------------------------------------------------------------------------
+   7. EXPERIENCE TIMELINE POLISH
+   -------------------------------------------------------------------------- */
+.dark #experience .rounded-2xl,
+.dark #experience .rounded-xl {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  transition: all 0.25s ease;
+}
+
+.dark #experience .rounded-2xl:hover,
+.dark #experience .rounded-xl:hover {
+  border-color: rgba(99, 102, 241, 0.35);
+}
+
+/* Ensure mobile timeline alignment doesn't clip */
+@media (max-width: 640px) {
+  #experience .relative.pl-8,
+  #experience .relative.pl-6 {
+    padding-left: 1.5rem !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   8. PUBLICATIONS SECTION POLISH
+   -------------------------------------------------------------------------- */
+.dark #publications .rounded-2xl,
+.dark #publications article {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(8px);
+  transition: all 0.3s ease;
+}
+
+.dark #publications .rounded-2xl:hover,
+.dark #publications article:hover {
+  border-color: rgba(99, 102, 241, 0.4);
+  transform: translateY(-4px);
+  box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.5);
+}
+
+/* --------------------------------------------------------------------------
+   9. CONTACT SECTION & CTA CARD
+   -------------------------------------------------------------------------- */
+.dark #contact .rounded-2xl,
+.dark #contact .rounded-3xl {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* CTA Card Responsive Padding */
+@media (max-width: 640px) {
+  #section-cta-card .rounded-3xl {
+    padding: 2rem 1.5rem !important;
+  }
+
+  #section-cta-card h2 {
+    font-size: 2rem !important;
+    line-height: 1.15 !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   10. ATHARVA FOOTER POLISH
+   -------------------------------------------------------------------------- */
+.atharva-footer {
+  background: var(--hb-color-background);
+  border-top: 1px solid rgba(148, 163, 184, 0.15);
+}
+
+.dark .atharva-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}

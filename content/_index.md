@@ -14,7 +14,7 @@ sections:
       greeting: "Hi, I'm"
       name: "Atharva B."
       show_status: true
-      show_scroll_indicator: true
+      show_scroll_indicator: false
       typewriter:
         enable: true
         prefix: "I focus on"
@@ -32,7 +32,7 @@ sections:
           icon: arrow-down
         - text: Download Resume
           url: "/uploads/resume.pdf"
-          icon: download
+          icon: arrow-down-tray
     design:
       style: centered
       avatar_shape: circle
@@ -42,7 +42,7 @@ sections:
           light: "#fafafa"
           dark: "#0a0a0f"
       spacing:
-        padding: ["6rem", "0", "4rem", "0"]
+        padding: ["2.5rem", "0", "3rem", "0"]
   
   # Filterable Portfolio - Alpine.js powered project filtering
   - block: portfolio
